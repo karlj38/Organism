@@ -97,6 +97,7 @@ const collection = (n) => {
 };
 
 const mostRelated = (arr) => {
+  // returns most closesly related DNA pair from an array
   let related = []; // nested array of records (id,id,%)
   let maxList = []; // array of %
   let max; // max %
